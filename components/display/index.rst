@@ -422,9 +422,9 @@ This can be combined with all Lambdas:
 
         interval:
           - interval: 5s
-              then:
-                lambda: |-
-                  id(my_animation).next_frame();
+            then:
+              lambda: |-
+                id(my_animation).next_frame();
 
 .. _display-pages:
 
